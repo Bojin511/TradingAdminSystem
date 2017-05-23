@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<REQUESTS>
+  <REQUEST>
+    <USERNAME>Bojin</USERNAME>
+    <ISSUE>Password lost</ISSUE>
+    <DATE>29 August 2012</DATE>
+    <STATUS>Outstanding</STATUS>
+    <DESCRIPTION>I lost my password</DESCRIPTION>
+  </REQUEST>
+  <REQUEST>
+    <USERNAME>Bojin</USERNAME>
+    <ISSUE>dark</ISSUE>
+    <DATE>29 August 2012</DATE>
+    <STATUS>Outstanding</STATUS>
+    <DESCRIPTION>room is too dark</DESCRIPTION>
+  </REQUEST>
+  <REQUEST>
+    <USERNAME>Bojin</USERNAME>
+    <ISSUE>123</ISSUE>
+    <DATE>456</DATE>
+    <STATUS>Outstanding</STATUS>
+    <DESCRIPTION>789</DESCRIPTION>
+  </REQUEST>
+  <REQUEST>
+    <USERNAME>Bojin</USERNAME>
+    <ISSUE>123</ISSUE>
+    <DATE>456</DATE>
+    <STATUS>Completed</STATUS>
+    <DESCRIPTION>789</DESCRIPTION>
+  </REQUEST>
+  <REQUEST>
+    <USERNAME>Bojin</USERNAME>
+    <ISSUE>123</ISSUE>
+    <DATE>456</DATE>
+    <STATUS>In Progress</STATUS>
+    <DESCRIPTION>789</DESCRIPTION>
+  </REQUEST>
+  <REQUEST>
+    <USERNAME>Bojin</USERNAME>
+    <ISSUE>234</ISSUE>
+    <DATE>30 August 2012</DATE>
+    <DESCRIPTION>213</DESCRIPTION>
+    <STATUS>In Progress</STATUS>
+  </REQUEST>
+  <REQUEST>
+    <USERNAME>Bojin</USERNAME>
+    <ISSUE>235</ISSUE>
+    <DATE>30 August 2012</DATE>
+    <DESCRIPTION>sad</DESCRIPTION>
+    <STATUS>Outstanding</STATUS>
+  </REQUEST>
+  <REQUEST>
+    <USERNAME>Bojin</USERNAME>
+    <ISSUE>236</ISSUE>
+    <DATE>30 August 2012</DATE>
+    <DESCRIPTION>FDS</DESCRIPTION>
+    <STATUS>Completed</STATUS>
+  </REQUEST>
+</REQUESTS>

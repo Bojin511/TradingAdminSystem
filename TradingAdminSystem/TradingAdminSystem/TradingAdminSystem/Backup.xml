@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<USERS>
+  <USER>
+    <USERNAME>Bojin1</USERNAME>
+    <PASSWORD>Bojin1</PASSWORD>
+    <FIRST_NAME>James</FIRST_NAME>
+    <LAST_NAME>Muddiman</LAST_NAME>
+    <EMAIL>james.muddiman@fdmgroup.com</EMAIL>
+    <DOB>31/07/1990</DOB>
+    <ROLE>Shareholder</ROLE>
+  </USER>
+  <USER>
+    <USERNAME>Bojin123</USERNAME>
+    <PASSWORD>fdad</PASSWORD>
+    <FIRST_NAME>das</FIRST_NAME>
+    <LAST_NAME>dad</LAST_NAME>
+    <EMAIL>as</EMAIL>
+    <DOB>sad</DOB>
+    <ROLE>Shareholder</ROLE>
+  </USER>
+  <USER>
+    <USERNAME>Bojin</USERNAME>
+    <PASSWORD>Bojin</PASSWORD>
+    <FIRST_NAME>213</FIRST_NAME>
+    <LAST_NAME>3</LAST_NAME>
+    <EMAIL>123</EMAIL>
+    <DOB>3</DOB>
+    <ROLE>System Administrator</ROLE>
+  </USER>
+  <USER>
+    <USERNAME>dfs</USERNAME>
+    <PASSWORD>1213</PASSWORD>
+    <FIRST_NAME>312</FIRST_NAME>
+    <LAST_NAME>1321</LAST_NAME>
+    <EMAIL>213</EMAIL>
+    <DOB>213</DOB>
+    <ROLE>Shareholder</ROLE>
+  </USER>
+  <USER>
+    <USERNAME>4t3</USERNAME>
+    <PASSWORD>rw</PASSWORD>
+    <FIRST_NAME>rwe</FIRST_NAME>
+    <LAST_NAME>ewr</LAST_NAME>
+    <EMAIL>wre</EMAIL>
+    <DOB>we</DOB>
+    <ROLE>Stock Exchange Manager</ROLE>
+  </USER>
+</USERS>

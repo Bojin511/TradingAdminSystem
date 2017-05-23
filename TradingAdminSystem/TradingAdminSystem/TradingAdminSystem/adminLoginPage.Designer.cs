@@ -1,0 +1,138 @@
+﻿namespace WindowsFormsApplication1
+{
+    partial class adminLoginPage
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.userNameTextBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.passwordTextBox = new System.Windows.Forms.TextBox();
+            this.loginButton = new System.Windows.Forms.Button();
+            this.registerPageLink = new System.Windows.Forms.LinkLabel();
+            this.sendRequestLink = new System.Windows.Forms.LinkLabel();
+            this.SuspendLayout();
+            // 
+            // userNameTextBox
+            // 
+            this.userNameTextBox.Location = new System.Drawing.Point(129, 41);
+            this.userNameTextBox.Name = "userNameTextBox";
+            this.userNameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.userNameTextBox.TabIndex = 0;
+            this.userNameTextBox.TextChanged += new System.EventHandler(this.userNameTextBox_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(56, 44);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "User Name";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(63, 89);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Password";
+            // 
+            // passwordTextBox
+            // 
+            this.passwordTextBox.Location = new System.Drawing.Point(129, 86);
+            this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.Size = new System.Drawing.Size(100, 20);
+            this.passwordTextBox.TabIndex = 3;
+            this.passwordTextBox.TextChanged += new System.EventHandler(this.passwordTextBox_TextChanged);
+            // 
+            // loginButton
+            // 
+            this.loginButton.Location = new System.Drawing.Point(154, 134);
+            this.loginButton.Name = "loginButton";
+            this.loginButton.Size = new System.Drawing.Size(75, 23);
+            this.loginButton.TabIndex = 4;
+            this.loginButton.Text = "Login";
+            this.loginButton.UseVisualStyleBackColor = true;
+            this.loginButton.Click += new System.EventHandler(this.login_Click);
+            // 
+            // registerPageLink
+            // 
+            this.registerPageLink.AutoSize = true;
+            this.registerPageLink.Location = new System.Drawing.Point(75, 191);
+            this.registerPageLink.Name = "registerPageLink";
+            this.registerPageLink.Size = new System.Drawing.Size(139, 13);
+            this.registerPageLink.TabIndex = 5;
+            this.registerPageLink.TabStop = true;
+            this.registerPageLink.Text = "User Registration Page Link";
+            this.registerPageLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.registerPageLink_LinkClicked);
+            // 
+            // sendRequestLink
+            // 
+            this.sendRequestLink.AutoSize = true;
+            this.sendRequestLink.Location = new System.Drawing.Point(73, 225);
+            this.sendRequestLink.Name = "sendRequestLink";
+            this.sendRequestLink.Size = new System.Drawing.Size(140, 13);
+            this.sendRequestLink.TabIndex = 6;
+            this.sendRequestLink.TabStop = true;
+            this.sendRequestLink.Text = "Send Request/Report Issue";
+            this.sendRequestLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.sendRequestLink_LinkClicked);
+            // 
+            // adminLoginPage
+            // 
+            this.AcceptButton = this.loginButton;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(292, 266);
+            this.Controls.Add(this.sendRequestLink);
+            this.Controls.Add(this.registerPageLink);
+            this.Controls.Add(this.loginButton);
+            this.Controls.Add(this.passwordTextBox);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.userNameTextBox);
+            this.Name = "adminLoginPage";
+            this.Text = "Admin Login Page";
+            this.Load += new System.EventHandler(this.Login_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox userNameTextBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox passwordTextBox;
+        private System.Windows.Forms.Button loginButton;
+        private System.Windows.Forms.LinkLabel registerPageLink;
+        private System.Windows.Forms.LinkLabel sendRequestLink;
+    }
+}
+
